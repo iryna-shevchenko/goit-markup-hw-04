@@ -153,6 +153,7 @@ a {
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
+    margin: auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70),
      rgba(46, 47, 66, 0.70)),
     url(../images/hero/bg.jpg);
