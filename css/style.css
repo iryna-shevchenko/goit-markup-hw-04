@@ -181,14 +181,18 @@ a {
     overflow: hidden;
 }
 
-.advantage-icon {
-    border-radius: 4px;
-    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-    background: var(--CLOUD, #F4F4FD);
-    width: 264px;
+.advantage-list-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 112px;
-    flex-shrink: 0;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
 }
+
+
 
 .button {
     font-weight: 500;
