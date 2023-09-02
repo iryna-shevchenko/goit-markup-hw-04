@@ -62,6 +62,9 @@ a {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-logo {
@@ -254,6 +257,9 @@ a {
 .our-company-card {
     background-color: var(--white);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .our-company-members {
@@ -273,6 +279,35 @@ a {
 
 .our-company-members-possition {
     padding: 32px 0;
+}
+
+.our-company-social-media-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;   
+}
+
+.our-company-social-media-item {
+    width: 40px;
+    height: 40px;
+}
+
+.our-company-social-media-link {
+    height: 100%;
+    background-color: var(--iris);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-company-social-media-link:hover,
+.our-company-social-media-link:focus {
+    background-color: #404bbf;
+}
+
+.our-company-social-media-icon {
+    fill: #f4f4fd;
 }
 
 .portfolio {
