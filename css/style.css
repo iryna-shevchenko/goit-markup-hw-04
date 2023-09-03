@@ -92,6 +92,11 @@ a {
     
 }
 
+.after {
+    color: #404bbf;
+}
+
+
 .after::after {
     content: '' ;
     color: #404bbf;
